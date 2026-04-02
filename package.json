@@ -1,6 +1,6 @@
 {
   "name": "copilot-agent-builder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Install Coreclaw Agent Skills (.github/ agents, skills, copilot-instructions) into your project",
   "main": "lib/install.js",
   "bin": {
