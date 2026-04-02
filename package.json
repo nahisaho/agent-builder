@@ -1,0 +1,30 @@
+{
+  "name": "copilot-agent-builder",
+  "version": "0.1.1",
+  "description": "Install Coreclaw Agent Skills (.github/ agents, skills, copilot-instructions) into your project",
+  "main": "lib/install.js",
+  "bin": {
+    "agent-builder": "bin/agent-builder.js"
+  },
+  "scripts": {
+    "postinstall": "node lib/postinstall.js"
+  },
+  "files": [
+    "lib/",
+    "bin/",
+    ".github/agents/",
+    ".github/skills/",
+    ".github/copilot-instructions.md"
+  ],
+  "keywords": [
+    "copilot",
+    "agent",
+    "skills",
+    "github-copilot",
+    "ai-agent"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
